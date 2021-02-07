@@ -1,16 +1,38 @@
-    li {
-      font-family: Georgia;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Yusei+Magic&display=swap');
 
-    #ingredients li {
-      font-family: Arial;
-    }
+body {
+  background-color: #FFF0D9;
+}
+h1 {
+  font-family: 'Coiny', cursive;
+  font-size: 4vw;
+  padding: 0;
+  margin: 0;
+  color: #521100;
+}
 
-    #ingredients li span {
-      font-style: italic;
-      color: #999;
-    }
+h4 {
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
-    #equipment li:nth-child(3) {
-      color: red;
-    }
+p {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+li {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#ingredients li span {
+  color: #505050;
+}
+
+#ingredients li:nth-child(10) {
+  color: brown;
+}
+
+#equipment li:nth-child(4) {
+  color: brown;
+}
